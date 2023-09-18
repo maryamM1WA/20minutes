@@ -1,0 +1,173 @@
+h1{
+    color: #345DC4;
+}
+.strong{
+    color: #345DC4;
+}
+/** Code pour le header**/
+#header{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    justify-content: center;
+    align-content: center;
+}
+.image-container{
+    position: absolute;
+    display: inline-block;
+ }
+/* Styles pour l'image */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+#caption1{
+margin-top: 17%;
+margin-right:38%;
+}
+.caption {
+    position: absolute;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl; /* Texte vertical */
+    text-align: center;
+    background: none;
+    color: black;
+    top: 0;
+    right: 0;
+ 
+
+}
+#bordure{
+    height: 130%;
+    margin-top: 50%;
+ margin-right: 98%;
+    position: absolute;
+   
+}
+#img1{
+    margin-top: -10%;
+    width: 80%;
+    padding-bottom: 5%;;
+}
+.bandeau{
+  color: white;
+  background-color: #345DC4;  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-size:larger;
+  
+}
+
+#bandeau1{
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 3%; 
+    padding-bottom: 3%;
+    
+}
+#bandeau2{
+    margin-top:0%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: absolute;
+}
+#claireVallee{
+    font-size: 60px;
+    margin-top: 20%;
+}
+#p1{
+    margin-top: -3%;;
+    position: absolute;
+    font-size: 45px;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#img2{
+    display: flex;
+    margin-top:20%;
+    width: 80%;
+}
+.col {
+
+    flex: 1;
+  
+}
+
+
+
+/** code pour le centre de la page**/
+
+#centrePage{
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    align-content: center;
+}
+
+/***colonne de gauche***/
+#colGauche{
+
+    position: relative;
+    margin-top:4%;
+    margin-left: 3%;
+}
+
+#colGauche img{
+    
+    width: 25em;
+    height: 20em;
+}
+
+#colGauche p{
+    position: relative;
+    font-size: 30px;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/**colonne de droite**/
+#colDroit{
+    display:flex;
+    margin-top: 10%;
+    margin-bottom: -8%;;
+    padding-bottom: 1%;
+   
+}
+#imgPrincipale{
+    width:60em;
+    height: 85em;
+    margin-left:36%;
+    position: absolute;
+     margin-top: -103%;
+     margin-left: 34%;
+    
+}
+
+#entete{
+    margin-top:0%;
+    position: absolute;
+    align-content:space-around ;
+    width: 80%;
+    font-size:20px;
+}
+#date{
+    margin-left: 3%;
+}
+#numSerie{
+
+   margin-left:95% ; 
+   position: absolute;
+}
+#marque{
+    position: absolute;
+    margin-left: 50%;
+}
+#footer{
+   margin-top:2%;
+    width:98%;
+    padding-left: 2%;
+    
+    
+}
